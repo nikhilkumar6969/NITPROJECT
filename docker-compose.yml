@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  labelguard:
+    build:
+      context: ./SIHB
+      dockerfile: Dockerfile
+    container_name: labelguard-app
+    restart: unless-stopped
+    ports:
+      - "5173:5173"
+      - "8000:8000"
+    environment:
+      - PORT=5173
+      - HOST=0.0.0.0

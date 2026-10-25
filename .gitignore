@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+*/node_modules/
+paddle-env/
+*/paddle-env/
+venv/
+*/venv/
+.venv/
+*/.venv/
+
+# Environment variables & secrets
+.env
+*/.env
+*.env
+*.local
+
+# Python caches and compiled binaries
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# Large archives and binaries
+*.zip
+*.tar.gz
+*.exe
+backend.zip
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
